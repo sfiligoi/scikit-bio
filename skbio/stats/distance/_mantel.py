@@ -11,11 +11,12 @@ from itertools import combinations
 import numpy as np
 import pandas as pd
 import scipy.special
-from scipy.stats import pearsonr, spearmanr, kendalltau
+from scipy.stats import spearmanr, kendalltau
 
 from skbio.stats.distance import DistanceMatrix
 from skbio.util._decorator import experimental
 
+from ._utils import PearsonPermuttable
 
 @experimental(as_of="0.4.0")
 def mantel(x, y, method='pearson', permutations=999, alternative='two-sided',
@@ -250,15 +251,6 @@ def mantel(x, y, method='pearson', permutations=999, alternative='two-sided',
     ``array_like`` because there is no notion of IDs.
 
     """
-    if method == 'pearson':
-        corr_func = pearsonr
-    elif method == 'spearman':
-        corr_func = spearmanr
-    elif method == 'kendalltau':
-        corr_func = kendalltau
-    else:
-        raise ValueError("Invalid correlation method '%s'." % method)
-
     if permutations < 0:
         raise ValueError("Number of permutations must be greater than or "
                          "equal to zero.")
@@ -275,12 +267,21 @@ def mantel(x, y, method='pearson', permutations=999, alternative='two-sided',
     x_flat = x.condensed_form()
     y_flat = y.condensed_form()
 
-    orig_stat = corr_func(x_flat, y_flat)[0]
+    if method == 'pearson':
+        corr_obj = PearsonPermuttable(x_flat,y_flat)
+    elif method == 'spearman':
+        corr_func = spearmanr
+    elif method == 'kendalltau':
+        corr_func = kendalltau
+    else:
+        raise ValueError("Invalid correlation method '%s'." % method)
+
+    orig_stat = corr_obj.compute()
 
     if permutations == 0 or np.isnan(orig_stat):
         p_value = np.nan
     else:
-        perm_gen = (corr_func(x.permute(condensed=True), y_flat)[0]
+        perm_gen = (corr_obj.updatex(x.permute(condensed=True)).compute()
                     for _ in range(permutations))
         permuted_stats = np.fromiter(perm_gen, np.float, count=permutations)
 
@@ -478,3 +479,5 @@ def _remap_ids(dm, lookup, label, order):
     dm_copy = dm.copy()
     dm_copy.ids = remapped_ids
     return dm_copy
+
+

@@ -146,3 +146,49 @@ def distmat_reorder_condensed(in_mat, reorder_vec, validate=False):
     distmat_reorder_condensed_cy(in_mat, np_reorder, out_mat_condensed)
     return out_mat_condensed
 
+class PearsonPermuttable:
+    def __init__(self, x, y):
+        # mean does not change on permutation
+        self.xmean = x.mean()
+
+        xm = x - self.xmean
+
+        # norm does not change on permutation
+        self.normxm = np.linalg.norm(xm)
+
+        self.xm_normalized = xm/self.normxm
+        del xm
+
+        self.ymean = y.mean()
+        ym = y - self.ymean
+        self.normym = np.linalg.norm(ym)
+        self.ym_normalized = ym/self.normym
+        del ym
+
+        threshold = 1e-13
+        if ((self.normxm < threshold*abs(self.xmean)) or 
+            (self.normym < threshold*abs(self.ymean))):
+            # If all the values in x (likewise y) are very close to the mean,
+            # the loss of precision that occurs in the subtraction xm = x - xmean
+            # might result in large errors in r.
+            warnings.warn(RuntimeWarning("An input array is nearly constant"))
+
+
+    def compute(self):
+        r = np.dot(self.xm_normalized, self.ym_normalized)
+
+        # Presumably, if abs(r) > 1, then it is only some small artifact of
+        # floating point arithmetic.
+        r = max(min(r, 1.0), -1.0)
+
+        return r
+
+    def updatex(self, x):
+        # xmean and normxm should not have changed, as it is just a permutation
+        xm = x - self.xmean
+        self.xm_normalized = xm/self.normxm
+        del xm
+
+        return self
+
+
