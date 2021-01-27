@@ -8,8 +8,46 @@
 
 import numpy as np
 
-from ._cutils import distmat_reorder_cy, distmat_reorder_condensed_cy
+from ._cutils import vec_fma_cy, distmat_reorder_cy, distmat_reorder_condensed_cy
 
+def vec_fma_buf(in_vec, mul, add, out_vec):
+    """
+    Compute out_vec = mul*in_vec + add
+
+    Parameters
+    ----------
+    in_mat : 1D array_like
+        Input array
+    mul: real
+        Multiplication factor
+    add: real
+        Addition
+    out_mat : 1D array_like
+        Output array, safe to use in_vec, too
+    """
+    vec_fma_cy(in_vec, mul, add, out_vec)
+
+def vec_fma(in_vec, mul, add):
+    """
+    Compute out_vec = mul*in_vec + add
+
+    Parameters
+    ----------
+    in_mat : 1D array_like
+        Input array
+    mul: real
+        Multiplication factor
+    add: real
+        Addition
+
+    Return
+    ------
+    out_mat : 1D array_like
+        Output array
+    """
+    out_vec = np.empty(in_vec.shape, in_vec.dtype)
+    vec_fma_cy(in_vec, mul, add, out_vec)
+    return out_vec
 
 def distmat_reorder_buf(in_mat, reorder_vec, out_mat, validate=False):
     """
@@ -185,9 +223,7 @@ class PearsonPermuttable:
 
     def updatex(self, x):
         # xmean and normxm should not have changed, as it is just a permutation
-        xm = x - self.xmean
-        self.xm_normalized = xm/self.normxm
-        del xm
+        self.xm_normalized = vec_fma(x, 1.0/self.normxm, -self.xmean/self.normxm)
 
         return self
 
