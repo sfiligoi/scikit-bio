@@ -19,6 +19,32 @@ ctypedef fused TReal:
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
+def vec_fma_cy(TReal[::1] in_vec, TReal mul, TReal add, TReal[::1] out_vec):
+    """
+    Compute out_vec = mul*in_vec + add
+
+    Parameters
+    ----------
+    in_mat : 1D array_like
+        Input array
+    mul: real
+        Multiplication factor
+    add: real
+        Addition
+    out_mat : 1D array_like
+        Output array, safe to use in_vec, too
+    """
+    cdef Py_ssize_t in_n = in_vec.shape[0]
+    cdef Py_ssize_t out_n = out_vec.shape[0]
+
+    assert in_n == out_n
+    cdef Py_ssize_t idx
+
+    for idx in prange(out_n, nogil=True):
+        out_vec[idx] = mul*in_vec[idx] + add
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
 def distmat_reorder_cy(TReal[:, ::1] in_mat, long[::1] reorder_vec, 
                        TReal[:, ::1] out_mat):
     """
