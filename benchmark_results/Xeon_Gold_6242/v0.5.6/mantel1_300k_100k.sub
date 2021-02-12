@@ -1,0 +1,28 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-72,procs_bitmap=0000000000000000111111111111111100000000000000000000000000000000
+hostname
+lscpu
+date
+
+export OMP_NUM_THREADS=16
+
+echo "Released scikit-bio 0.5.6"
+
+cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/mantel1
+source ../conda_setup.sh
+conda activate unifrac-unifrac-20-2
+taskset -c 16-31 time python mandel1_300k_param.py 100
+taskset -c 16-31 time python mandel1_300k_param.py 500
+taskset -c 16-31 time python mandel1_300k_param.py 1000
+taskset -c 16-31 time python mandel1_300k_param.py 2000
+taskset -c 16-31 time python mandel1_300k_param.py 4000
+taskset -c 16-31 time python mandel1_300k_param.py 5000
+taskset -c 16-31 time python mandel1_300k_param.py 8000
+taskset -c 16-31 time python mandel1_300k_param.py 10000
+taskset -c 16-31 time python mandel1_300k_param.py 20000
+#taskset -c 16-31 time python mandel1_300k_param.py 40000
+#taskset -c 16-31 time python mandel1_300k_param.py 50000
+#taskset -c 16-31 time python mandel1_300k_param.py 80000
+#taskset -c 16-31 time python mandel1_300k_param.py 100000
+

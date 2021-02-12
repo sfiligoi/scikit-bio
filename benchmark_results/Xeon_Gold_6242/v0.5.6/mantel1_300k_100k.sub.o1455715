@@ -1,0 +1,65 @@
+brncl-72
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    16
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz
+Stepping:              7
+CPU MHz:               1570.406
+CPU max MHz:           3900.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5600.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              22528K
+NUMA node0 CPU(s):     0-15,32-47
+NUMA node1 CPU(s):     16-31,48-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req
+Thu Feb 11 09:19:06 PST 2021
+Released scikit-bio 0.5.6
+Proessing 100 * 100 matrix
+H5 11.10
+MT 0.12
+0.6499545029516134 0.001 100
+Proessing 500 * 500 matrix
+H5 5.70
+MT 2.55
+0.6304336652470249 0.001 500
+Proessing 1000 * 1000 matrix
+H5 4.68
+MT 17.30
+0.6318379200009653 0.001 1000
+Proessing 2000 * 2000 matrix
+H5 9.73
+MT 107.18
+0.6267686773353548 0.001 2000
+Proessing 4000 * 4000 matrix
+H5 19.67
+MT 620.77
+0.6267997812740361 0.001 4000
+Proessing 5000 * 5000 matrix
+H5 12.03
+MT 974.12
+0.6319566835353568 0.001 5000
+Proessing 8000 * 8000 matrix
+H5 31.98
+MT 2848.96
+0.6342916941120229 0.001 8000
+Proessing 10000 * 10000 matrix
+H5 23.58
+MT 3995.03
+0.6360770756886988 0.001 10000
+Proessing 20000 * 20000 matrix
+H5 96.35
+MT 17447.73
+0.6371859652412686 0.001 20000

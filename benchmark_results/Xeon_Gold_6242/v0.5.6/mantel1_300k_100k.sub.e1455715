@@ -1,0 +1,19 @@
+1.98user 10.69system 0:29.24elapsed 43%CPU (0avgtext+0avgdata 122920maxresident)k
+177880inputs+16outputs (210major+70315minor)pagefaults 0swaps
+10.10user 34.88system 0:09.17elapsed 490%CPU (0avgtext+0avgdata 130172maxresident)k
+0inputs+16outputs (0major+69856minor)pagefaults 0swaps
+59.64user 220.62system 0:22.87elapsed 1225%CPU (0avgtext+0avgdata 178272maxresident)k
+0inputs+16outputs (0major+95110minor)pagefaults 0swaps
+338.67user 1216.55system 1:57.84elapsed 1319%CPU (0avgtext+0avgdata 362364maxresident)k
+0inputs+16outputs (0major+103875minor)pagefaults 0swaps
+728.02user 1355.42system 10:47.57elapsed 321%CPU (0avgtext+0avgdata 1080332maxresident)k
+0inputs+16outputs (0major+4377610minor)pagefaults 0swaps
+1015.29user 1431.54system 16:33.31elapsed 246%CPU (0avgtext+0avgdata 1637496maxresident)k
+0inputs+16outputs (0major+3955736minor)pagefaults 0swaps
+2586.78user 1782.58system 48:08.14elapsed 151%CPU (0avgtext+0avgdata 3922580maxresident)k
+0inputs+16outputs (0major+5029351minor)pagefaults 0swaps
+3441.10user 2115.78system 1:07:05elapsed 138%CPU (0avgtext+0avgdata 6048240maxresident)k
+0inputs+16outputs (0major+9369794minor)pagefaults 0swaps
+14546.97user 4817.33system 4:52:31elapsed 110%CPU (0avgtext+0avgdata 23684668maxresident)k
+0inputs+16outputs (0major+16111745minor)pagefaults 0swaps
+-bash: line 1: 401707 Terminated              /var/spool/torque/mom_priv/jobs/1455715.barnacle.ucsd.edu.SC
