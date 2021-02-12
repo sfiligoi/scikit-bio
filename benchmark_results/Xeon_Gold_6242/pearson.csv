@@ -1,4 +1,4 @@
-#Matrix size x,y,v0.5.6 runtime,New runtime,Speedup
+#Matrix size x,y,v0.5.6 runtime (seconds),New runtime (seconds),Speedup
 100,100,0.12,0.00,
 500,500,2.55,0.03,85x
 1000,1000,17.3,0.07,250x
