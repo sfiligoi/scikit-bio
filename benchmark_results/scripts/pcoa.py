@@ -5,7 +5,7 @@ import skbio
 import time
 
 t1=time.time()
-with h5py.File(sys,argv[2],"r") as f_u:
+with h5py.File(sys.argv[2],"r") as f_u:
  dm_u=skbio.stats.distance.DistanceMatrix(f_u['matrix'][:,:],f_u['order'][:])
 
 t2=time.time()
