@@ -1,0 +1,10 @@
+/home/isfiligoi/anaconda3/envs/skbio-local/lib/python3.6/site-packages/scikit_bio-0.5.6-py3.6-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+136.73user 5.16system 2:20.09elapsed 101%CPU (0avgtext+0avgdata 5653008maxresident)k
+3324832inputs+24outputs (442major+54538minor)pagefaults 0swaps
+Command terminated by signal 9
+66.55user 16.14system 1:29.87elapsed 92%CPU (0avgtext+0avgdata 9339752maxresident)k
+12534912inputs+8outputs (191major+744719minor)pagefaults 0swaps
+Command terminated by signal 9
+10.07user 13.28system 1:01.59elapsed 37%CPU (0avgtext+0avgdata 9323468maxresident)k
+26051792inputs+8outputs (132289major+987340minor)pagefaults 0swaps
