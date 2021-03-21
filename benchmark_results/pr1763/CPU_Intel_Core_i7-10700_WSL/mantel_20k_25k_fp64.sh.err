@@ -1,0 +1,6 @@
+Command terminated by signal 9
+17.35user 20.13system 0:47.20elapsed 79%CPU (0avgtext+0avgdata 9342228maxresident)k
+12734264inputs+8outputs (681major+685612minor)pagefaults 0swaps
+Command terminated by signal 9
+7.01user 10.83system 0:29.47elapsed 60%CPU (0avgtext+0avgdata 9341820maxresident)k
+20147008inputs+8outputs (6717major+1012784minor)pagefaults 0swaps
