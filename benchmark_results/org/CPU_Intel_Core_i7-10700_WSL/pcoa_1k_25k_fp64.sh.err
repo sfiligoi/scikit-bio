@@ -1,0 +1,35 @@
+./pcoa_1k_25k_fp64.sh: line 8: cd: /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/scikit-bio/benchmark_results/org/CPU_Intel_Xeon_Gold_6242: No such file or directory
+./pcoa_1k_25k_fp64.sh: line 9: /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2020.11_20.2/setup_conda.source: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+1.08user 1.58system 0:01.56elapsed 171%CPU (0avgtext+0avgdata 186632maxresident)k
+232152inputs+8outputs (493major+32339minor)pagefaults 0swaps
+1.30user 1.64system 0:00.89elapsed 327%CPU (0avgtext+0avgdata 279384maxresident)k
+63048inputs+16outputs (0major+35955minor)pagefaults 0swaps
+4.68user 3.60system 0:02.80elapsed 294%CPU (0avgtext+0avgdata 976500maxresident)k
+391960inputs+8outputs (0major+36560minor)pagefaults 0swaps
+22.74user 9.41system 0:10.70elapsed 300%CPU (0avgtext+0avgdata 3297216maxresident)k
+1564624inputs+8outputs (0major+47553minor)pagefaults 0swaps
+Command terminated by signal 9
+13.67user 27.32system 0:43.82elapsed 93%CPU (0avgtext+0avgdata 9344920maxresident)k
+6259688inputs+8outputs (33major+518105minor)pagefaults 0swaps
+Command terminated by signal 9
+19.89user 13.15system 0:43.01elapsed 76%CPU (0avgtext+0avgdata 9361628maxresident)k
+10009856inputs+8outputs (792major+675523minor)pagefaults 0swaps
