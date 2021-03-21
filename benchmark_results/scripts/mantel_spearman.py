@@ -18,7 +18,7 @@ print("=== %s FileLoad time: %.2f"%(sys.argv[1], t2-t1))
 
 # example computing a mantel test
 t1=time.time()
-r, p, n = skbio.stats.distance.mantel(dm_u, dm_w, method=‘spearman')
+r, p, n = skbio.stats.distance.mantel(dm_u, dm_w, method="spearman")
 t2=time.time()
 print("=== %s Mantel Spearman time: %.2f"%(sys.argv[1], t2-t1))
 
