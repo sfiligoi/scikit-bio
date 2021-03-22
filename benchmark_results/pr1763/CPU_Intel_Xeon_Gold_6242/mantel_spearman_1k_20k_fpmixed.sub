@@ -12,5 +12,5 @@ source /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/conda_setup.sh
 conda activate skbio-mylocal
 
 for i in 1 2 5 10 20; do 
-taskset -c 0-15 time python ../../scripts/mantel_spearman.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.h5 ../../inputs/unifrac_${i}000_nf_pcoa_0.fp64.h5
+taskset -c 0-15 time python ../../scripts/mantel_spearman.py "${i}000 mixed" ../../inputs/unifrac_${i}000_pcoa_10.h5 ../../inputs/unifrac_${i}000_nf_pcoa_0.fp64.h5
 done
