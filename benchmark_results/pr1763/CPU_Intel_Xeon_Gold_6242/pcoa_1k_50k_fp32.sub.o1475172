@@ -1,0 +1,300 @@
+brncl-73
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    16
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz
+Stepping:              7
+CPU MHz:               3500.000
+CPU max MHz:           3900.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5600.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              22528K
+NUMA node0 CPU(s):     0-15,32-47
+NUMA node1 CPU(s):     16-31,48-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req
+Mon Mar 22 09:32:05 PDT 2021
+=== 1000 fp32 FileLoad time: 0.02
+=== 1000 fp32 PCOA=5 time:  0.05
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 5
+	Proportion explained: 5
+	Features: N/A
+	Samples: 1000x5
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'10248.DACA.2.5', b'10119.MT.301', b'10918.38769', b'10815.J1CxW31TOR2012', ...
+=== 1000 fp32 PCOA=10 time:  0.05
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 10
+	Proportion explained: 10
+	Features: N/A
+	Samples: 1000x10
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'10248.DACA.2.5', b'10119.MT.301', b'10918.38769', b'10815.J1CxW31TOR2012', ...
+=== 1000 fp32 PCOA=20 time:  0.05
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 20
+	Proportion explained: 20
+	Features: N/A
+	Samples: 1000x20
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'10248.DACA.2.5', b'10119.MT.301', b'10918.38769', b'10815.J1CxW31TOR2012', ...
+=== 2000 fp32 FileLoad time: 0.03
+=== 2000 fp32 PCOA=5 time:  0.07
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 5
+	Proportion explained: 5
+	Features: N/A
+	Samples: 2000x5
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11116.I13A075.1196568', b'10581.8', b'10317.000031783', ...
+=== 2000 fp32 PCOA=10 time:  0.11
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 10
+	Proportion explained: 10
+	Features: N/A
+	Samples: 2000x10
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11116.I13A075.1196568', b'10581.8', b'10317.000031783', ...
+=== 2000 fp32 PCOA=20 time:  0.10
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 20
+	Proportion explained: 20
+	Features: N/A
+	Samples: 2000x20
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11116.I13A075.1196568', b'10581.8', b'10317.000031783', ...
+=== 5000 fp32 FileLoad time: 0.08
+=== 5000 fp32 PCOA=5 time:  0.31
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 5
+	Proportion explained: 5
+	Features: N/A
+	Samples: 5000x5
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11244.KI15bFSYM308', b'10377.210415129.r3l4', b'10403.7.11.14.NL32.S5', ...
+=== 5000 fp32 PCOA=10 time:  0.37
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 10
+	Proportion explained: 10
+	Features: N/A
+	Samples: 5000x10
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11244.KI15bFSYM308', b'10377.210415129.r3l4', b'10403.7.11.14.NL32.S5', ...
+=== 5000 fp32 PCOA=20 time:  0.39
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 20
+	Proportion explained: 20
+	Features: N/A
+	Samples: 5000x20
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11244.KI15bFSYM308', b'10377.210415129.r3l4', b'10403.7.11.14.NL32.S5', ...
+=== 10000 fp32 FileLoad time: 0.20
+=== 10000 fp32 PCOA=5 time:  1.11
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 5
+	Proportion explained: 5
+	Features: N/A
+	Samples: 10000x5
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'12145.GDM0.V.20213', b'1098.an1D6', b'11052.9.28.15.rk.lh', ...
+=== 10000 fp32 PCOA=10 time:  1.26
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 10
+	Proportion explained: 10
+	Features: N/A
+	Samples: 10000x10
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'12145.GDM0.V.20213', b'1098.an1D6', b'11052.9.28.15.rk.lh', ...
+=== 10000 fp32 PCOA=20 time:  1.36
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 20
+	Proportion explained: 20
+	Features: N/A
+	Samples: 10000x20
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'12145.GDM0.V.20213', b'1098.an1D6', b'11052.9.28.15.rk.lh', ...
+=== 20000 fp32 FileLoad time: 0.72
+=== 20000 fp32 PCOA=5 time:  4.41
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 5
+	Proportion explained: 5
+	Features: N/A
+	Samples: 20000x5
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11335.patient1.BLANK.1.5F', b'11757.G440883493', b'1841.T20363', ...
+=== 20000 fp32 PCOA=10 time:  4.77
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 10
+	Proportion explained: 10
+	Features: N/A
+	Samples: 20000x10
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11335.patient1.BLANK.1.5F', b'11757.G440883493', b'1841.T20363', ...
+=== 20000 fp32 PCOA=20 time:  5.12
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 20
+	Proportion explained: 20
+	Features: N/A
+	Samples: 20000x20
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11335.patient1.BLANK.1.5F', b'11757.G440883493', b'1841.T20363', ...
+=== 25000 fp32 FileLoad time: 8.80
+=== 25000 fp32 PCOA=5 time:  6.87
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 5
+	Proportion explained: 5
+	Features: N/A
+	Samples: 25000x5
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11724.612', b'12142.820231913.2', b'11242.JP403F7W', ...
+=== 25000 fp32 PCOA=10 time:  7.40
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 10
+	Proportion explained: 10
+	Features: N/A
+	Samples: 25000x10
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11724.612', b'12142.820231913.2', b'11242.JP403F7W', ...
+=== 25000 fp32 PCOA=20 time:  7.85
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 20
+	Proportion explained: 20
+	Features: N/A
+	Samples: 25000x20
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11724.612', b'12142.820231913.2', b'11242.JP403F7W', ...
+=== 30000 fp32 FileLoad time: 12.41
+=== 30000 fp32 PCOA=5 time:  10.08
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 5
+	Proportion explained: 5
+	Features: N/A
+	Samples: 30000x5
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11326.Q.71402.0170.2017.12.17', b'850.h95S.1', b'10333.Man.1827.kitc', ...
+=== 30000 fp32 PCOA=10 time:  10.76
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 10
+	Proportion explained: 10
+	Features: N/A
+	Samples: 30000x10
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11326.Q.71402.0170.2017.12.17', b'850.h95S.1', b'10333.Man.1827.kitc', ...
+=== 30000 fp32 PCOA=20 time:  11.37
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 20
+	Proportion explained: 20
+	Features: N/A
+	Samples: 30000x20
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'11326.Q.71402.0170.2017.12.17', b'850.h95S.1', b'10333.Man.1827.kitc', ...
+=== 50000 fp32 FileLoad time: 39.54
+=== 50000 fp32 PCOA=5 time:  28.20
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 5
+	Proportion explained: 5
+	Features: N/A
+	Samples: 50000x5
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'550.L2S317.s.2.sequence', b'11052.6.13.18.RK.T', b'11052.12.28.12.rk.fh', ...
+=== 50000 fp32 PCOA=10 time:  30.09
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 10
+	Proportion explained: 10
+	Features: N/A
+	Samples: 50000x10
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'550.L2S317.s.2.sequence', b'11052.6.13.18.RK.T', b'11052.12.28.12.rk.fh', ...
+=== 50000 fp32 PCOA=20 time:  31.71
+Ordination results:
+	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
+	Eigvals: 20
+	Proportion explained: 20
+	Features: N/A
+	Samples: 50000x20
+	Biplot Scores: N/A
+	Sample constraints: N/A
+	Feature IDs: N/A
+	Sample IDs: b'550.L2S317.s.2.sequence', b'11052.6.13.18.RK.T', b'11052.12.28.12.rk.fh', ...

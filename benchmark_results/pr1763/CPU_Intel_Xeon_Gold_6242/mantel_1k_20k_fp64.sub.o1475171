@@ -1,0 +1,43 @@
+brncl-73
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                64
+On-line CPU(s) list:   0-63
+Thread(s) per core:    2
+Core(s) per socket:    16
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz
+Stepping:              7
+CPU MHz:               1412.796
+CPU max MHz:           3900.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              5600.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              22528K
+NUMA node0 CPU(s):     0-15,32-47
+NUMA node1 CPU(s):     16-31,48-63
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req
+Mon Mar 22 09:29:47 PDT 2021
+=== 1000 fp64 FileLoad time: 0.23
+=== 1000 fp64 Mantel time: 0.15
+0.9909528036347787 0.001 1000
+=== 2000 fp64 FileLoad time: 0.44
+=== 2000 fp64 Mantel time: 0.76
+0.9916382073165722 0.001 2000
+=== 5000 fp64 FileLoad time: 1.98
+=== 5000 fp64 Mantel time: 5.29
+0.9935004810264831 0.001 5000
+=== 10000 fp64 FileLoad time: 6.64
+=== 10000 fp64 Mantel time: 22.27
+0.9936310788928112 0.001 10000
+=== 20000 fp64 FileLoad time: 24.56
+=== 20000 fp64 Mantel time: 108.83
+0.9937311430188682 0.001 20000

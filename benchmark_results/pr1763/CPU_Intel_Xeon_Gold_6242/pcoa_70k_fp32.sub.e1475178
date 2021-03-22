@@ -1,0 +1,4 @@
+/panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/ana3/envs/skbio-mylocal/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+649.86user 202.22system 3:29.42elapsed 406%CPU (0avgtext+0avgdata 77042188maxresident)k
+0inputs+24outputs (0major+33054124minor)pagefaults 0swaps
