@@ -1,0 +1,20 @@
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+1.68user 0.55system 0:00.88elapsed 254%CPU (0avgtext+0avgdata 160060maxresident)k
+0inputs+16outputs (0major+45283minor)pagefaults 0swaps
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+2.01user 0.68system 0:00.97elapsed 277%CPU (0avgtext+0avgdata 211704maxresident)k
+0inputs+16outputs (0major+47746minor)pagefaults 0swaps
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+4.58user 0.98system 0:01.71elapsed 324%CPU (0avgtext+0avgdata 554880maxresident)k
+0inputs+8outputs (0major+54748minor)pagefaults 0swaps
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+13.35user 2.42system 0:13.41elapsed 117%CPU (0avgtext+0avgdata 1750796maxresident)k
+1565152inputs+24outputs (0major+64222minor)pagefaults 0swaps
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+49.32user 8.89system 0:50.11elapsed 116%CPU (0avgtext+0avgdata 6486732maxresident)k
+6234944inputs+24outputs (2major+283535minor)pagefaults 0swaps

@@ -1,0 +1,16 @@
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+2.62user 0.51system 0:01.25elapsed 251%CPU (0avgtext+0avgdata 187516maxresident)k
+0inputs+16outputs (0major+60707minor)pagefaults 0swaps
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+10.03user 0.50system 0:03.51elapsed 299%CPU (0avgtext+0avgdata 325368maxresident)k
+0inputs+24outputs (0major+57533minor)pagefaults 0swaps
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+62.43user 0.98system 0:20.47elapsed 309%CPU (0avgtext+0avgdata 1182604maxresident)k
+0inputs+24outputs (0major+161522minor)pagefaults 0swaps
+/home/sfiligoi/unifrac/ana3/envs/skbio-local/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+252.51user 2.32system 1:26.75elapsed 293%CPU (0avgtext+0avgdata 4159004maxresident)k
+0inputs+24outputs (0major+460755minor)pagefaults 0swaps
