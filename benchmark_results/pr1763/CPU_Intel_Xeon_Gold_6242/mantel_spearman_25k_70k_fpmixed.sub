@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=1111111111111111000000000000000000000000000000000000000000000000
+hostname
+lscpu
+date
+
+export OMP_NUM_THREADS=16
+
+cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/scikit-bio/benchmark_results/pr1763/CPU_Intel_Xeon_Gold_6242
+source /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/conda_setup.sh
+conda activate skbio-mylocal
+
+for i in 25 30 50 70; do 
+taskset -c 0-15 time python ../../scripts/mantel_spearman.py "${i}000 mixed" ../../inputs/unifrac_${i}000_pcoa_10.h5 ../../inputs/unifrac_${i}000_nf_pcoa_0.fp64.h5
+done
