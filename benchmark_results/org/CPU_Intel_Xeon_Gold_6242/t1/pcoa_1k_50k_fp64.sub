@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=1111111111111111000000000000000000000000000000000000000000000000
+hostname
+lscpu
+date
+
+cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/scikit-bio/benchmark_results/org/CPU_Intel_Xeon_Gold_6242
+source /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2020.11_20.2/setup_conda.source
+conda activate unifrac-gpu
+
+for i in 1 2 5 10 20 25 30 50; do 
+taskset -c 0-15 time python ../../scripts/pcoa.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5 
+done
