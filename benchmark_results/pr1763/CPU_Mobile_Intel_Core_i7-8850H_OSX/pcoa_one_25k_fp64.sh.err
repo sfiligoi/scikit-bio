@@ -1,0 +1,60 @@
+/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/scikit_bio-0.5.6-py3.8-macosx-10.9-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+        5.35 real         5.44 user         3.20 sys
+          5116592128  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1265827  page reclaims
+                 953  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1465  voluntary context switches
+                2784  involuntary context switches
+         17742940817  instructions retired
+         25830794126  cycles elapsed
+          5095792640  peak memory footprint
+/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/scikit_bio-0.5.6-py3.8-macosx-10.9-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+       18.51 real        23.88 user         2.81 sys
+          5164421120  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1278723  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+                2342  involuntary context switches
+        221540922172  instructions retired
+         99249593665  cycles elapsed
+          5131505664  peak memory footprint
+/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/scikit_bio-0.5.6-py3.8-macosx-10.9-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+       23.66 real        27.93 user        13.47 sys
+          7932014592  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             4858068  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1715  voluntary context switches
+              172978  involuntary context switches
+        242216645075  instructions retired
+        152941114363  cycles elapsed
+         10131619840  peak memory footprint

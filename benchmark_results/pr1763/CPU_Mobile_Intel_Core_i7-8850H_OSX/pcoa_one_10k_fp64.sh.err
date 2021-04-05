@@ -1,0 +1,93 @@
+/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/scikit_bio-0.5.6-py3.8-macosx-10.9-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+Traceback (most recent call last):
+  File "../../scripts/pcoa_load_only.py", line 17, in <module>
+    with h5py.File(sys.argv[2],"r") as f_u:
+  File "/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/h5py/_hl/files.py", line 424, in __init__
+    fid = make_fid(name, mode, userblock_size,
+  File "/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/h5py/_hl/files.py", line 190, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 96, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = '../../inputs/unifrac_10000_pcoa_10.fp64.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+        1.25 real         0.88 user         0.25 sys
+           110137344  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               42340  page reclaims
+                 930  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   6  voluntary context switches
+                 312  involuntary context switches
+          4847317221  instructions retired
+          3999355210  cycles elapsed
+            90378240  peak memory footprint
+/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/scikit_bio-0.5.6-py3.8-macosx-10.9-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+Traceback (most recent call last):
+  File "../../scripts/pcoa_inline.py", line 17, in <module>
+    with h5py.File(sys.argv[2],"r") as f_u:
+  File "/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/h5py/_hl/files.py", line 424, in __init__
+    fid = make_fid(name, mode, userblock_size,
+  File "/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/h5py/_hl/files.py", line 190, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 96, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = '../../inputs/unifrac_10000_pcoa_10.fp64.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+        1.01 real         0.79 user         0.21 sys
+           110149632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43322  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                 123  involuntary context switches
+          4843714674  instructions retired
+          3791839745  cycles elapsed
+            90390528  peak memory footprint
+/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/scikit_bio-0.5.6-py3.8-macosx-10.9-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+  import pandas.util.testing as pdt
+Traceback (most recent call last):
+  File "../../scripts/pcoa_one.py", line 17, in <module>
+    with h5py.File(sys.argv[2],"r") as f_u:
+  File "/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/h5py/_hl/files.py", line 424, in __init__
+    fid = make_fid(name, mode, userblock_size,
+  File "/Users/isfiligoi/tmp/scikit-bio/ana3-skbio/envs/skbio-local/lib/python3.8/site-packages/h5py/_hl/files.py", line 190, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 96, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = '../../inputs/unifrac_10000_pcoa_10.fp64.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+        1.00 real         0.77 user         0.21 sys
+           110149632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               43238  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   3  voluntary context switches
+                 142  involuntary context switches
+          4847826633  instructions retired
+          3799105328  cycles elapsed
+            90382336  peak memory footprint

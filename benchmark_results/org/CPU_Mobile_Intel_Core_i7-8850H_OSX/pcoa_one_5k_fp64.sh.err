@@ -1,0 +1,55 @@
+sysctl: unknown oid '-N'
+        2.18 real         1.56 user         0.43 sys
+           341262336  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               98991  page reclaims
+                 978  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1693  voluntary context switches
+                1554  involuntary context switches
+          6365195114  instructions retired
+          7237737682  cycles elapsed
+           320000000  peak memory footprint
+        2.10 real         3.48 user         0.43 sys
+           741834752  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              202215  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                1506  involuntary context switches
+         10287706485  instructions retired
+         13516896456  cycles elapsed
+           695767040  peak memory footprint
+        2.04 real         3.40 user         0.46 sys
+           942567424  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              251063  page reclaims
+                 158  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                1061  involuntary context switches
+          9869955611  instructions retired
+         13338103139  cycles elapsed
+           895848448  peak memory footprint

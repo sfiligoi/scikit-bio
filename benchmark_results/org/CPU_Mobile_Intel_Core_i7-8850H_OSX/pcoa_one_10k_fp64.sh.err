@@ -1,0 +1,87 @@
+Traceback (most recent call last):
+  File "../../scripts/pcoa_load_only.py", line 17, in <module>
+    with h5py.File(sys.argv[2],"r") as f_u:
+  File "/Users/isfiligoi/tmp/unifrac2/ana3/envs/unifrac-cpu/lib/python3.8/site-packages/h5py/_hl/files.py", line 424, in __init__
+    fid = make_fid(name, mode, userblock_size,
+  File "/Users/isfiligoi/tmp/unifrac2/ana3/envs/unifrac-cpu/lib/python3.8/site-packages/h5py/_hl/files.py", line 190, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 96, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = '../../inputs/unifrac_10000_pcoa_10.fp64.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+        1.09 real         1.25 user         0.23 sys
+           114434048  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44370  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   6  voluntary context switches
+                 938  involuntary context switches
+          5741963701  instructions retired
+          5649167136  cycles elapsed
+            94150656  peak memory footprint
+Traceback (most recent call last):
+  File "../../scripts/pcoa_inline.py", line 17, in <module>
+    with h5py.File(sys.argv[2],"r") as f_u:
+  File "/Users/isfiligoi/tmp/unifrac2/ana3/envs/unifrac-cpu/lib/python3.8/site-packages/h5py/_hl/files.py", line 424, in __init__
+    fid = make_fid(name, mode, userblock_size,
+  File "/Users/isfiligoi/tmp/unifrac2/ana3/envs/unifrac-cpu/lib/python3.8/site-packages/h5py/_hl/files.py", line 190, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 96, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = '../../inputs/unifrac_10000_pcoa_10.fp64.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+        1.08 real         1.24 user         0.23 sys
+           114356224  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44313  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+                 521  involuntary context switches
+          5754784496  instructions retired
+          5683712965  cycles elapsed
+            94072832  peak memory footprint
+Traceback (most recent call last):
+  File "../../scripts/pcoa_one.py", line 17, in <module>
+    with h5py.File(sys.argv[2],"r") as f_u:
+  File "/Users/isfiligoi/tmp/unifrac2/ana3/envs/unifrac-cpu/lib/python3.8/site-packages/h5py/_hl/files.py", line 424, in __init__
+    fid = make_fid(name, mode, userblock_size,
+  File "/Users/isfiligoi/tmp/unifrac2/ana3/envs/unifrac-cpu/lib/python3.8/site-packages/h5py/_hl/files.py", line 190, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 96, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = '../../inputs/unifrac_10000_pcoa_10.fp64.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+        1.06 real         1.23 user         0.22 sys
+           114552832  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               44398  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   3  voluntary context switches
+                 527  involuntary context switches
+          5738278452  instructions retired
+          5603988736  cycles elapsed
+            94261248  peak memory footprint
