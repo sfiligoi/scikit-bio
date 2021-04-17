@@ -1,6 +1,4 @@
 #!/bin/bash
-#PBS -q highmem
-#PBS -l nodes=brncl-73,procs_bitmap=1111111111111111000000000000000000000000000000000000000000000000
 hostname
 lscpu
 date
@@ -12,7 +10,7 @@ source /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2020.11_20.2/setup_
 conda activate unifrac-gpu
 
 for i in 10 ; do 
-taskset -c 0-15 time python ../../scripts/pcoa_load_only.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5 
-taskset -c 0-15 time python ../../scripts/pcoa_one.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5
-taskset -c 0-15 time python ../../scripts/pcoa_inline.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5
+taskset -c 16-31 time python ../../scripts/pcoa_load_only.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5 
+taskset -c 16-31 time python ../../scripts/pcoa_one.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5
+taskset -c 16-31 time python ../../scripts/pcoa_inline.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5
 done

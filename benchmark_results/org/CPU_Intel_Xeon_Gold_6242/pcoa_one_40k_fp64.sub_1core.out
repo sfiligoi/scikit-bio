@@ -13,7 +13,7 @@ CPU family:            6
 Model:                 85
 Model name:            Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz
 Stepping:              7
-CPU MHz:               1199.953
+CPU MHz:               1600.046
 CPU max MHz:           3900.0000
 CPU min MHz:           1200.0000
 BogoMIPS:              5600.00
@@ -25,32 +25,39 @@ L3 cache:              22528K
 NUMA node0 CPU(s):     0-15,32-47
 NUMA node1 CPU(s):     16-31,48-63
 Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req
-Fri Apr  2 16:46:01 PDT 2021
+Fri Apr 16 20:44:06 PDT 2021
 Using fp64 version
-=== 5000 fp64 FileLoad time: 0.93
+INFO Timing validate 15.46
+=== 40000 fp64 FileLoad time: 78.78
 Using fp64 version
-=== 5000 fp64 FileLoad time: 0.18
-=== 5000 fp64 PCOA=10 time:  0.43
+INFO Timing validate 15.46
+=== 40000 fp64 FileLoad time: 20.94
+INFO Timing validate 15.47
+INFO Timing: PCoA 45.42, ini 15.48, center 19.62, eigen 10.31
+=== 40000 fp64 PCOA=10 time:  45.45
 Ordination results:
 	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
 	Eigvals: 10
 	Proportion explained: 10
 	Features: N/A
-	Samples: 5000x10
+	Samples: 40000x10
 	Biplot Scores: N/A
 	Sample constraints: N/A
 	Feature IDs: N/A
-	Sample IDs: b'11244.KI15bFSYM308', b'10377.210415129.r3l4', b'10403.7.11.14.NL32.S5', ...
+	Sample IDs: b'10896.CO1702.BATH', b'10317.000058795', b'10801.GF2.U3', ...
 Using fp64 version
-=== 5000 fp64 FileLoad time: 0.18
-=== Inplace 5000 fp64 PCOA=10 time:  0.46
+INFO Timing validate 15.44
+=== 40000 fp64 FileLoad time: 20.36
+INFO Timing validate 15.43
+INFO Timing: PCoA 44.56, ini 15.44, center 18.83, eigen 10.30
+=== Inplace 40000 fp64 PCOA=10 time:  44.60
 Ordination results:
 	Method: Approximate Principal Coordinate Analysis using FSVD (PCoA)
 	Eigvals: 10
 	Proportion explained: 10
 	Features: N/A
-	Samples: 5000x10
+	Samples: 40000x10
 	Biplot Scores: N/A
 	Sample constraints: N/A
 	Feature IDs: N/A
-	Sample IDs: b'11244.KI15bFSYM308', b'10377.210415129.r3l4', b'10403.7.11.14.NL32.S5', ...
+	Sample IDs: b'10896.CO1702.BATH', b'10317.000058795', b'10801.GF2.U3', ...
