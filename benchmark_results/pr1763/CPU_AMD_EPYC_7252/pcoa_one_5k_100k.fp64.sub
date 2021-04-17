@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in 5 10 20 25 30 40 50 70 ; do
+for i in 5 10 20 25 30 40 50 70 100 ; do
  ./pcoa_one_${i}k_fp64.sub >pcoa_one_${i}k_fp64.sub.out 2> pcoa_one_${i}k_fp64.sub.err 
 done
 
