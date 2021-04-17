@@ -1,12 +1,12 @@
 /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/ana3/envs/skbio-mylocal/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
   import pandas.util.testing as pdt
-5.80user 5.30system 0:04.30elapsed 258%CPU (0avgtext+0avgdata 6376732maxresident)k
-0inputs+24outputs (0major+70505minor)pagefaults 0swaps
+1.23user 0.57system 0:02.16elapsed 83%CPU (0avgtext+0avgdata 899952maxresident)k
+0inputs+24outputs (0major+53458minor)pagefaults 0swaps
 /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/ana3/envs/skbio-mylocal/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
   import pandas.util.testing as pdt
-74.01user 24.89system 0:22.79elapsed 433%CPU (0avgtext+0avgdata 25292856maxresident)k
-0inputs+24outputs (0major+130384minor)pagefaults 0swaps
+2.13user 0.71system 0:02.87elapsed 99%CPU (0avgtext+0avgdata 1693528maxresident)k
+0inputs+24outputs (0major+66383minor)pagefaults 0swaps
 /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/ana3/envs/skbio-mylocal/lib/python3.7/site-packages/scikit_bio-0.5.6-py3.7-linux-x86_64.egg/skbio/util/_testing.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
   import pandas.util.testing as pdt
-73.37user 23.19system 0:22.67elapsed 425%CPU (0avgtext+0avgdata 19055516maxresident)k
-0inputs+24outputs (0major+132861minor)pagefaults 0swaps
+2.13user 0.55system 0:02.70elapsed 99%CPU (0avgtext+0avgdata 912292maxresident)k
+0inputs+24outputs (0major+63859minor)pagefaults 0swaps

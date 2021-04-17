@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -q highmem
+#PBS -l nodes=brncl-73,procs_bitmap=0000000000000000100000000000000000000000000000000000000000000000
+
+cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/scikit-bio/benchmark_results/pr1763/CPU_Intel_Xeon_Gold_6242
+for i in 5 10 20 25 30 40 50 70 100; do
+ ./pcoa_one_${i}k_fp64_1core.sub >pcoa_one_${i}k_fp64_1core.sub.out 2> pcoa_one_${i}k_fp64_1core.sub.err 
+done
+
