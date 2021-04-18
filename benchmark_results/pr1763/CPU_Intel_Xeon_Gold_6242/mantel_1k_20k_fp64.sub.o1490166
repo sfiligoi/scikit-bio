@@ -13,7 +13,7 @@ CPU family:            6
 Model:                 85
 Model name:            Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz
 Stepping:              7
-CPU MHz:               1560.890
+CPU MHz:               1199.953
 CPU max MHz:           3900.0000
 CPU min MHz:           1200.0000
 BogoMIPS:              5600.00
@@ -25,16 +25,34 @@ L3 cache:              22528K
 NUMA node0 CPU(s):     0-15,32-47
 NUMA node1 CPU(s):     16-31,48-63
 Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req
-Mon Mar 22 09:57:10 PDT 2021
-=== 25000 fp64 FileLoad time: 23.94
-=== 25000 fp64 Mantel time: 181.73
-0.9934316612195646 0.001 25000
-=== 30000 fp64 FileLoad time: 38.36
-=== 30000 fp64 Mantel time: 264.36
-0.9936767797709606 0.001 30000
-=== 50000 fp64 FileLoad time: 88.68
-=== 50000 fp64 Mantel time: 775.31
-0.9939349648399847 0.001 50000
-=== 70000 fp64 FileLoad time: 162.15
-=== 70000 fp64 Mantel time: 1602.31
-0.9939603957649217 0.001 70000
+Sat Apr 17 18:02:24 PDT 2021
+INFO Timing validate 0.00
+INFO Timing validate 0.00
+=== 1000 fp64 FileLoad time: 0.02
+INFO Timing: Mantel 0.16, ini 0.00, core 0.16, post 0.00
+=== 1000 fp64 Mantel time: 0.16
+0.9909528036347787 0.001 1000
+INFO Timing validate 0.00
+INFO Timing validate 0.00
+=== 2000 fp64 FileLoad time: 0.04
+INFO Timing: Mantel 0.68, ini 0.00, core 0.68, post 0.00
+=== 2000 fp64 Mantel time: 0.68
+0.9916382073165722 0.001 2000
+INFO Timing validate 0.01
+INFO Timing validate 0.01
+=== 5000 fp64 FileLoad time: 0.22
+INFO Timing: Mantel 4.89, ini 0.00, core 4.89, post 0.00
+=== 5000 fp64 Mantel time: 4.89
+0.9935004810264831 0.001 5000
+INFO Timing validate 0.04
+INFO Timing validate 0.04
+=== 10000 fp64 FileLoad time: 0.80
+INFO Timing: Mantel 20.17, ini 0.00, core 20.17, post 0.00
+=== 10000 fp64 Mantel time: 20.17
+0.9936310788928112 0.001 10000
+INFO Timing validate 0.16
+INFO Timing validate 0.16
+=== 20000 fp64 FileLoad time: 3.19
+INFO Timing: Mantel 107.71, ini 0.00, core 107.71, post 0.00
+=== 20000 fp64 Mantel time: 107.71
+0.9937311430188682 0.001 20000
