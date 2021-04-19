@@ -1,0 +1,13 @@
+#!/bin/bash
+source ~/.bashrc
+hostname
+lscpu
+date
+
+export OMP_NUM_THREADS=8
+
+conda activate skbio-local
+
+for i in 70; do 
+taskset -c 8-15 time python ../../scripts/mantel.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5 ../../inputs/unifrac_${i}000_nf_pcoa_0.fp64.h5
+done
