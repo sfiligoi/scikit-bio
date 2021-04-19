@@ -12,6 +12,6 @@ cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/scikit-bio/benchmark_resul
 source /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2020.11_20.2/setup_conda.source
 conda activate unifrac-gpu
 
-for i in 1 2 5 10 20; do 
+for i in 25; do 
 taskset -c 16-31 time python ../../scripts/mantel.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5 ../../inputs/unifrac_${i}000_nf_pcoa_0.fp64.h5
 done

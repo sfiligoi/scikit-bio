@@ -1,17 +1,16 @@
 #!/bin/bash
 #PBS -q highmem
-#PBS -l nodes=brncl-73,procs_bitmap=0000000000000000111111111111111100000000000000000000000000000000
-
+#PBS -l nodes=brncl-73,procs_bitmap=0000000000000000010000000000000000000000000000000
 hostname
 lscpu
 date
 
-export OMP_NUM_THREADS=16
+export OMP_NUM_THREADS=1
 
 cd /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/dev/t8/scikit-bio/benchmark_results/org/CPU_Intel_Xeon_Gold_6242
 source /panfs/panfs1.ucsd.edu/panscratch/isfiligoi/anaconda3_2020.11_20.2/setup_conda.source
 conda activate unifrac-gpu
 
 for i in 1 2 5 10 20; do 
-taskset -c 16-31 time python ../../scripts/mantel.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5 ../../inputs/unifrac_${i}000_nf_pcoa_0.fp64.h5
+taskset -c 17 time python ../../scripts/mantel.py "${i}000 fp64" ../../inputs/unifrac_${i}000_pcoa_10.fp64.h5 ../../inputs/unifrac_${i}000_nf_pcoa_0.fp64.h5
 done
